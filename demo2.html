@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+
+    <style>
+        header,footer{
+            background-color: #0a4b7e;
+            /* border: 2px solid rgb(86, 67, 67); */
+            /* box-shadow:inset 0 0 10px #03375f; */
+            /* box-shadow: 0px 16px 18px #524a4a; */
+            color:whitesmoke;
+            font-size: 2em;
+            margin: 0;
+            padding: .5em;
+        }
+
+        header img {
+            height: 2em;
+        }
+        main{
+            padding: 2em;
+        }
+        body{
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        footer{
+            text-align: center;
+        }
+        footer a{
+            font-size: .60em;
+            
+        }
+        .copyright{
+            font-size: .50em;
+            text-align: center;
+        }
+        .heading{
+            font-weight: bold;
+        }
+        .text{
+            padding:1em;
+        }
+        .problem{
+            margin: 2em;
+            padding: 2em;
+            font-style: italic;
+            background-color: #e4e4e4;
+        }
+        .code{
+            background-color: rgb(23, 23, 26);
+            text-align: center;
+            justify-content: left;
+        }
+        pre{
+            color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <img src="Opnlogo.png" alt="logo">
+                CoinedOne
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="section">
+            <h3><div class="heading">Introduction</div></h3>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem corrupti ratione quisquam recusandae optio commodi accusantium facilis incidunt repellat totam odit, quibusdam consequuntur corporis vel autem, doloribus harum blanditiis.</p>
+        </div>
+        <div class="section">
+        <h3><div class="heading">Website</div></h3>
+             <p class="text">Lorem, ipsum.</p>
+         </div>
+         <div class="section">
+            <h3><div class="heading">Scope of the review</div></h3>
+             <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora eaque porro, sed unde dolore omnis quod perferendis quam minima.</p>
+         </div>
+         <div class="section">
+            <h3><div class="heading">WCAG version</div></h3>
+             <p class="text">Lorem, ipsum.</p>
+         </div>
+         <div class="section">
+            <h3><div class="heading">Conformance target</div></h3>
+             <p class="text">Lorem</p>
+         </div>
+         <div class="section">
+            <h3><div class="heading">Tools used for review</div></h3>
+             <p class="text">
+                <ul>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+             </p>
+         </div>
+         <div class="problem">
+            <div class="section">
+            <h3><div class="heading">Error</div></h3>
+                <p class="text">Lorem</p>
+            </div>
+            <div class="section">
+                <h3><div class="heading">Failed WCAG guideline</div></h3>
+                <p class="text">
+                    <ul>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="section">
+                <h3><div class="heading">Test case</div></h3>
+                <p class="text">Lorem</p>
+            </div>
+            <div class="section">
+                <h3><div class="heading">Affected user</div></h3>
+                <p class="text">Lorem</p>
+            </div>
+            <div class="section">
+            <h3><div class="heading">Consequence to user</div></h3>
+                <p class="text">Lorem</p>
+            </div>
+            <div class="section">
+                <h3><div class="heading">Problem source</div></h3>
+                <div class="code">
+                    <pre><code>
+                        <p class="text" id="abcd"></p>
+                    </code></pre>
+                </div>
+            </div>
+            <div class="section">
+                <h3><div class="heading">Date and time of testing</div></h3>
+                <p class="text">Lorem</p>
+            </div>
+         </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <span class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <a href="#">lorem</a><br>
+                    <a href="#">ipsum</a>
+                </span>
+                <span class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <a href="#">lorem</a><br>
+                    <a href="#">ipsum</a>
+                </span>
+                <span class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <a href="#">lorem</a><br>
+                    <a href="#">ipsum</a>
+                </span>
+            </div>
+            <div class="row copyright">
+               <p> © 2020 <a href="#">CoinedOne</a> </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.rawgit.com/beautify-web/js-beautify/v1.10.3/js/lib/beautify-html.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./ajaxRequest.js"></script>
+    <script src="./format.js"></script>
+    <script>
+        // let p=`<div class="heading"><p class="heading2">URL: </p><div class="heading"><p class="heading3">Testcase</p><div class="heading">Problem Source</div><div class="code"><pre id="abcd"></pre></div><div class="heading">Affected User</div></div></div>`;
+     
+    //    document.getElementById("abcd").innerText = res;
+
+
+
+    </script>
+   
+</body>
+</html>

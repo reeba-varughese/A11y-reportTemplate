@@ -1,0 +1,2 @@
+let res = html_beautify('<div class="heading"><p class="heading2">URL: </p><div class="heading"><p class="heading3">Testcase</p><div class="heading">Problem Source</div><div class="code"><pre id="abcd"></pre></div><div class="heading">Affected User</div></div></div>');
+document.getElementById("abcd").innerText = res;
